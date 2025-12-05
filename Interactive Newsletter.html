@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Precalculus Weekly Newsletter | Period 2 AP Calculus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 1. CORE SETUP & TYPOGRAPHY */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9; /* Light background */
+        }
+        h1, h2, h3 {
+            font-family: 'Lexend', sans-serif;
+            color: #0f172a;
+        }
+        p, li {
+            color: #475569;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        /* 2. HEADER STYLING */
+        .header-bg {
+            background-image: url("http://googleusercontent.com/image_collection/image_retrieval/1114095461345987736");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .header-overlay {
+            background: rgba(15, 23, 42, 0.75); /* Darkened overlay for text pop */
+        }
+        .header-text h1 {
+            font-size: 3rem; /* md:5xl, lg:6xl */
+            color: white;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .header-text p {
+            color: #e2e8f0;
+            font-size: 1.25rem; /* md:2xl */
+        }
+
+        /* 3. SECTION STYLING */
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #334155;
+            border-left: 6px solid #6366f1; /* Indigo accent */
+            padding-left: 1.25rem;
+        }
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* 4. LISTS (What We're Learning) */
+        .math-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .math-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .math-list li::before {
+            content: '\f12a'; /* Math symbol icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: #6366f1;
+        }
+
+        /* 5. DATES/TIMELINE */
+        .date-badge {
+            background: #e0e7ff;
+            color: #4338ca;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 8px;
+            min-width: 100px;
+            text-align: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        /* 6. CTA BUTTON */
+        .cta-button {
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+        .cta-button:hover {
+            transform: scale(1.03);
+            background-color: #4f46e5;
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fake Google Sites Nav Bar (for presentation feel) -->
+    <nav class="sticky top-0 w-full bg-white border-b border-gray-200 z-10 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800 font-['Lexend']"><i class="fa-solid fa-square-root-variable text-indigo-500 mr-2"></i> Period 2 AP PreCalculus</div>
+            <div class="flex space-x-6 text-sm font-semibold text-gray-500">
+                <a href="#home" class="text-indigo-600">Home</a>
+                <a href="#learning">Learning Focus</a>
+                <a href="#dates">Dates</a>
+                <a href="#announcements">Announcements</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Header Section -->
+    <header id="home" class="header-bg py-24 md:py-32 w-full">
+        <div class="header-overlay absolute inset-0"></div>
+        <div class="relative max-w-6xl mx-auto px-6 text-center header-text">
+            <h1 class="mb-4">AP PreCalculus</h1>
+            <p class="font-light">Weekly Newsletter | December 1 - December 5</p>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main class="max-w-6xl mx-auto p-4 md:p-8 space-y-12 md:space-y-16">
+
+        <!-- 2. What We Are Learning Section -->
+        <section id="learning" class="section-card p-6 md:p-10">
+            <h2 class="section-title"><i class="fa-solid fa-graduation-cap mr-2"></i> What We Are Learning</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                <div class="math-list">
+                    <h3 class="text-2xl font-semibold mb-4 text-indigo-700">Unit 2: Polynomial & Rational Functions</h3>
+                    <p class="mb-4">This week we are diving deep into the limiting behavior of rational functions. We will move beyond simple graphing to understand the underlying mechanics of "End Behavior" and "Discontinuities".</p>
+                    <ul>
+                        <li><strong>Vertical Asymptotes:</strong> Identifying infinite discontinuities where the denominator equals zero.</li>
+                        <li><strong>Holes (Removable Discontinuities):</strong> What happens when a factor cancels out?</li>
+                        <li><strong>End Behavior Models:</strong> Analyzing the ratio of leading terms to predict horizontal or slant asymptotes.</li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center">
+                    <div class="image-card p-2 border border-gray-300">
+                        <img class="rounded-lg" src="http://googleusercontent.com/image_collection/image_retrieval/18070585856556865213" alt="Graph of a rational function showing curves and asymptotes">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Important Dates Section -->
+        <section id="dates" class="section-card p-6 md:p-10">
+            <h2 class="section-title"><i class="fa-solid fa-calendar-check mr-2"></i> Important Dates</h2>
+            <div class="dates-container space-y-3">
+                <div class="date-row bg-gray-50 rounded-lg">
+                    <div class="date-badge">Mon, Dec 4</div>
+                    <div class="date-content">
+                        <strong>Topic 2.4 Notes</strong>
+                        <span>Introduction to Asymptotes and Holes.</span>
+                    </div>
+                </div>
+                <div class="date-row bg-gray-50 rounded-lg">
+                    <div class="date-badge">Wed, Dec 6</div>
+                    <div class="date-content">
+                        <strong>Homework 2.4 Due</strong>
+                        <span>Submit via AP Classroom by 11:59 PM.</span>
+                    </div>
+                </div>
+                <div class="date-row bg-red-50 rounded-lg border-red-200 border">
+                    <div class="date-badge" style="background:#fee2e2; color:#b91c1c;">Fri, Dec 8</div>
+                    <div class="date-content">
+                        <strong class="text-red-700">Quiz: Sections 2.1 - 2.4</strong>
+                        <span class="text-red-600 font-medium">Covers Polynomials, Zeros, and Rational Basics.</span>
+                    </div>
+                </div>
+                <div class="date-row bg-gray-50 rounded-lg">
+                    <div class="date-badge">Next Tue</div>
+                    <div class="date-content">
+                        <strong>Unit 2 Test</strong>
+                        <span>Start reviewing your study guides now!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Announcements Section -->
+        <section id="announcements" class="section-card p-6 md:p-10 bg-indigo-50 border-t-4 border-indigo-200">
+            <h2 class="section-title"><i class="fa-solid fa-bullhorn mr-2"></i> Class Announcements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="info-tile bg-white border-t-4 border-indigo-500 rounded-lg p-6 shadow-md">
+                    <i class="fa-solid fa-users-rectangle text-indigo-600 mb-3"></i>
+                    <h3 class="text-xl font-bold">Review Session</h3>
+                    <p class="text-sm">An optional review session for the upcoming quiz will be held this Thursday at 3:30 PM in Room 304. We will focus on factoring high-degree polynomials.</p>
+                </div>
+                <div class="info-tile bg-white border-t-4 border-indigo-500 rounded-lg p-6 shadow-md">
+                    <i class="fa-solid fa-laptop-code text-indigo-600 mb-3"></i>
+                    <h3 class="text-xl font-bold">AP Classroom</h3>
+                    <p class="text-sm">Please ensure you can log into AP Classroom. New progress checks have been assigned. These are excellent practice for the AP Exam format.</p>
+                </div>
+                <div class="info-tile bg-white border-t-4 border-indigo-500 rounded-lg p-6 shadow-md">
+                    <i class="fa-solid fa-calculator text-indigo-600 mb-3"></i>
+                    <h3 class="text-xl font-bold">Tech Check</h3>
+                    <p class="text-sm">We will be using graphing calculators heavily this week. Please make sure your batteries are charged! Bring your TI-84 (or equivalent) daily.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CTA / Relevant Website Button -->
+        <section class="py-10 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Visualize and Explore the Math!
+            </h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                The Desmos Graphing Calculator is an incredible tool for visualizing rational functions, asymptotes, and end behavior.
+            </p>
+            <a href="https://www.desmos.com/calculator" target="_blank"
+               class="cta-button inline-block bg-indigo-600 text-white font-['Lexend'] font-semibold py-4 px-10 rounded-full text-lg">
+                Launch Desmos Graphing Calculator <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+            </a>
+            <p class="mt-4 text-sm text-gray-500">
+                (External link for supplementary material)
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 py-6 border-t border-gray-300 text-center text-gray-600 text-sm bg-white">
+        &copy; 2025 AP Precalculus Classroom Newsletter | Created for [Milligan College/Technology in Education]
+    </footer>
+
+</body>
+</html>
